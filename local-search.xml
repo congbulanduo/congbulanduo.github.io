@@ -8,9 +8,21 @@
     <link href="/2024/12/05/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/"/>
     <url>/2024/12/05/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<p>在测试文章.md中添加内容如下，演示了图片的三种引用方式。第一种为官方推荐用法，第二种为markdown语法，第三种和前两种图片存放位置不一样，是将图片放在\source\images目录下。这三种写法在md文件中图片是无法显示的，但是在页面上能正常显示</p><p><img src="/images/%E7%8C%AB%E7%8C%AB.jpg" alt="猫猫"></p><p>zhendenengchenggongmang?</p>]]></content>
     
     
+    <categories>
+      
+      <category>java</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创</tag>
+      
+    </tags>
     
   </entry>
   
@@ -21,7 +33,7 @@
     <link href="/2024/11/24/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
     <url>/2024/11/24/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
     
-    <content type="html"><![CDATA[<p>这是一篇测试文章</p><p><img src="/images/test.png" alt="1"></p>]]></content>
+    <content type="html"><![CDATA[<p>这是一篇测试文章</p><p><img src="/images/test.png" alt="1"></p><p><img src="/images/%E7%8C%AB%E7%8C%AB.jpg" alt="1"></p>]]></content>
     
     
     <categories>
