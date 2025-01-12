@@ -4,12 +4,37 @@
   
   
   <entry>
+    <title>Aesop_secret</title>
+    <link href="/2024/12/25/Aesop-secret/"/>
+    <url>/2024/12/25/Aesop-secret/</url>
+    
+    <content type="html"><![CDATA[<p>下载解压之后 是这么一个动态图片。</p><p>打开后</p><p>是那种乱码格式</p><p>但是最后发现:</p><p>这么一串字符串</p><p>U2FsdGVkX19QwGkcgD0fTjZxgijRzQOGbCWALh4sRDec2w6xsY&#x2F;ux53Vuj&#x2F;AMZBDJ87qyZL5kAf1fmAH4Oe13Iu435bfRBuZgHpnRjTBn5+xsDHONiR3t0+Oa8yG&#x2F;tOKJMNUauedvMyN4v4QKiFunw&#x3D;&#x3D;</p><p>看出来应该是aes解密</p><p>然后在<a href="https://tu.sioe.cn/gj/fenjie/%E8%A7%A3%E6%9E%90gif%E5%9B%BE%E7%89%87%E5%BE%97%E5%88%B0%E5%AF%86%E7%A0%81">https://tu.sioe.cn/gj/fenjie/解析gif图片得到密码</a></p><p>在<a href="http://www.jsons.cn/aesencrypt/%E5%9C%A8%E7%BA%BF%E8%A7%A3%E5%AF%86%E5%BE%97%E5%88%B0U2FsdGVkX18OvTUlZubDnmvk2lSAkb8Jt4Zv6UWpE7Xb43f8uzeFRUKGMo6QaaNFHZriDDV0EQ/qt38Tw73tbQ==">http://www.jsons.cn/aesencrypt/在线解密得到U2FsdGVkX18OvTUlZubDnmvk2lSAkb8Jt4Zv6UWpE7Xb43f8uzeFRUKGMo6QaaNFHZriDDV0EQ/qt38Tw73tbQ==</a></p><p>再次解密得到flag{DugUpADiamondADeepDarkMine}</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Misc</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>新生赛]Include1</title>
     <link href="/2024/12/13/%E6%96%B0%E7%94%9F%E8%B5%9B-Include1/"/>
     <url>/2024/12/13/%E6%96%B0%E7%94%9F%E8%B5%9B-Include1/</url>
     
     <content type="html"><![CDATA[<p>打开网页，发现有个tips连接，点进去发现只提示一句话Can you find out the flag?，说明flag很可能是被隐藏在这个页面中；F12 发现也什么都没有<br>联想题目名字是include，所以这肯定是一个文件包含漏洞的题，很有可能答案就在文件中<br>后缀加入?file&#x3D;php:&#x2F;&#x2F;filter&#x2F;read&#x3D;convert.base64-encode&#x2F;resource&#x3D;flag.php，输出一串base64编码的字符串<br>PD9waHAKZWNobyAiQ2FuIHlvdSBmaW5kIG91dCB0aGUgZmxhZz8iOwovL2ZsYWd7MjgyOWI4MjctZGZiNy00YjE5LWE4NzMtNDc4NzkwODM5NTYwfQo&#x3D;<br>解码</p><p>![1](images&#x2F;[ACTF2020 新生赛]Include1-1.png)</p><p>![1](images&#x2F;[ACTF2020 新生赛]Include1-2.png)</p><p>![1](images&#x2F;[ACTF2020 新生赛]Include1-3.png)</p>]]></content>
     
+    
+    <categories>
+      
+      <category>Web</category>
+      
+    </categories>
     
     
   </entry>
@@ -23,6 +48,12 @@
     
     <content type="html"><![CDATA[<p><img src="/images/buuctfweb-easyphp%E6%B1%9F%E8%8B%8F%E5%B7%A5%E5%8C%A0%E6%9D%AF-1.png" alt="1"></p><p><img src="/images/buuctfweb-easyphp%E6%B1%9F%E8%8B%8F%E5%B7%A5%E5%8C%A0%E6%9D%AF0.png" alt="1"></p><p><img src="/images/buuctfweb-easyphp%E6%B1%9F%E8%8B%8F%E5%B7%A5%E5%8C%A0%E6%9D%AF1.png" alt="1"></p><p><img src="/images/buuctfweb-easyphp%E6%B1%9F%E8%8B%8F%E5%B7%A5%E5%8C%A0%E6%9D%AF2.png" alt="1"></p><p><img src="/images/buuctfweb-easyphp%E6%B1%9F%E8%8B%8F%E5%B7%A5%E5%8C%A0%E6%9D%AF3.png" alt="1"></p><p><img src="/images/buuctfweb-easyphp%E6%B1%9F%E8%8B%8F%E5%B7%A5%E5%8C%A0%E6%9D%AF4.png" alt="1"></p>]]></content>
     
+    
+    <categories>
+      
+      <category>Web</category>
+      
+    </categories>
     
     
   </entry>
