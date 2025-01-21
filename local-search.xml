@@ -27,7 +27,7 @@
     <link href="/2024/12/13/%E6%96%B0%E7%94%9F%E8%B5%9B-Include1/"/>
     <url>/2024/12/13/%E6%96%B0%E7%94%9F%E8%B5%9B-Include1/</url>
     
-    <content type="html"><![CDATA[<p>打开网页，发现有个tips连接，点进去发现只提示一句话Can you find out the flag?，说明flag很可能是被隐藏在这个页面中；F12 发现也什么都没有<br>联想题目名字是include，所以这肯定是一个文件包含漏洞的题，很有可能答案就在文件中<br>后缀加入?file&#x3D;php:&#x2F;&#x2F;filter&#x2F;read&#x3D;convert.base64-encode&#x2F;resource&#x3D;flag.php，输出一串base64编码的字符串<br>PD9waHAKZWNobyAiQ2FuIHlvdSBmaW5kIG91dCB0aGUgZmxhZz8iOwovL2ZsYWd7MjgyOWI4MjctZGZiNy00YjE5LWE4NzMtNDc4NzkwODM5NTYwfQo&#x3D;<br>解码</p><p><img src="/images/buuctfweb-easyphp%E6%B1%9F%E8%8B%8F%E5%B7%A5%E5%8C%A0%E6%9D%AF-1.png" alt="1"></p><p>![1](images&#x2F;[ACTF2020 新生赛]Include1-2.png)</p><p>![1](images&#x2F;[ACTF2020 新生赛]Include1-3.png)</p>]]></content>
+    <content type="html"><![CDATA[<p>打开网页，发现有个tips连接，点进去发现只提示一句话Can you find out the flag?，说明flag很可能是被隐藏在这个页面中；F12 发现也什么都没有<br>联想题目名字是include，所以这肯定是一个文件包含漏洞的题，很有可能答案就在文件中<br>后缀加入?file&#x3D;php:&#x2F;&#x2F;filter&#x2F;read&#x3D;convert.base64-encode&#x2F;resource&#x3D;flag.php，输出一串base64编码的字符串<br>PD9waHAKZWNobyAiQ2FuIHlvdSBmaW5kIG91dCB0aGUgZmxhZz8iOwovL2ZsYWd7MjgyOWI4MjctZGZiNy00YjE5LWE4NzMtNDc4NzkwODM5NTYwfQo&#x3D;<br>解码</p><p>![1](images&#x2F;ACTF2020 新生赛Include1-1.png)</p><p>![1](images&#x2F;ACTF2020 新生赛Include1-2.png)</p><p>![1](images&#x2F;ACTF2020 新生赛Include1-3.png)</p>]]></content>
     
     
     <categories>
