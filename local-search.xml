@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Aesop_secret</title>
+    <link href="/2025/03/02/Aesop-secret-1/"/>
+    <url>/2025/03/02/Aesop-secret-1/</url>
+    
+    <content type="html"><![CDATA[<p>1.下载解压之后 是一个动态图片,用图片分解工具查看后得到ISCC，</p><p><img src="/images/AES%E5%8A%A0%E5%AF%861.png" alt="1"></p><p>2.用txt打开动态图，发现最后一串乱码</p><p>3.用在线aec解密 密码为ISCC</p><p>4.再解一次得到flag</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Misc</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>gif</title>
     <link href="/2025/03/02/gif/"/>
     <url>/2025/03/02/gif/</url>
