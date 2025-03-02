@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>简单的base编码</title>
+    <link href="/2025/03/01/%E7%AE%80%E5%8D%95%E7%9A%84base%E7%BC%96%E7%A0%81/"/>
+    <url>/2025/03/01/%E7%AE%80%E5%8D%95%E7%9A%84base%E7%BC%96%E7%A0%81/</url>
+    
+    <content type="html"><![CDATA[<p>1.拿到题目，看到一大串base64编码，估计是进行多次编译。<br>2.进行了大概10次左右的解码，拿到一个奇怪的东西<br>3.看到“#”这个字符，猜测是base91或者base92编码，直接上工具<br>4.然后就得到了</p><p><img src="/images/%E7%AE%80%E5%8D%95%E7%9A%84base%E7%BC%96%E7%A0%81.png" alt="1"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Misc</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>祝你新年快乐啦</title>
     <link href="/2025/03/01/%E7%A5%9D%E4%BD%A0%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90%E5%95%A6/"/>
     <url>/2025/03/01/%E7%A5%9D%E4%BD%A0%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90%E5%95%A6/</url>
@@ -155,25 +174,6 @@
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Nepnep 祝你新年快乐啦！</title>
-    <link href="/2024/02/25/Nepnep%20%E7%A5%9D%E4%BD%A0%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90%E5%95%A6%EF%BC%81/"/>
-    <url>/2024/02/25/Nepnep%20%E7%A5%9D%E4%BD%A0%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90%E5%95%A6%EF%BC%81/</url>
-    
-    <content type="html"><![CDATA[<p>题目给了一段视频，电脑会删掉最后几帧，用手机打开，调成0.25倍速观看后面，发现flag<br>![1](Nepnep 祝你新年快乐啦！.png)</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>Misc</category>
-      
-    </categories>
     
     
   </entry>
