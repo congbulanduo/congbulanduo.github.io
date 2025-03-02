@@ -4,6 +4,101 @@
   
   
   <entry>
+    <title>gif</title>
+    <link href="/2025/03/02/gif/"/>
+    <url>/2025/03/02/gif/</url>
+    
+    <content type="html"><![CDATA[<p>打开文件出现多个黑白，让人联想到二进制，白色图片代表0，黑色图片代表1。</p><p>01100110前八位二进制换算后为 f 证明思路正确。</p><p>01100110011011000110000101100111011110110100011001110101010011100101111101100111011010010100011001111101</p><p>二进制转字符串得到 flag</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Misc</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>pdf</title>
+    <link href="/2025/03/02/pdf/"/>
+    <url>/2025/03/02/pdf/</url>
+    
+    <content type="html"><![CDATA[<p>下载附件给了一个pdf<br>里面有一张图片<br>把图片删掉，发现下面的flag</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Misc</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>give_you_flag</title>
+    <link href="/2025/03/02/give-you-flag/"/>
+    <url>/2025/03/02/give-you-flag/</url>
+    
+    <content type="html"><![CDATA[<p>1、下载附件，打开gif图会看到小龙人数完钞票会展示二维码，使用stegsolve等工具查看帧数得到二维码。<br>二维码缺少三个小方块，而这些小方块被称为定位图案，用于标记二维码矩形的大小，用三个定位图案可以标识并确定一个二维码矩形的位置和方向。</p><p>2、使用工具ps将二维码修复完全便可获得完整二维码，扫描获得flag。<br>得到flag：flag{e7d478cf6b915f50ab1277f78502a2c5}</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Misc</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>this_is_flag</title>
+    <link href="/2025/03/02/this-is-flag/"/>
+    <url>/2025/03/02/this-is-flag/</url>
+    
+    <content type="html"><![CDATA[<p>题目描述:<br>Most flags are in the form flag{xxx}, for example:flag{th1s_!s_a_d4m0_4la9}<br>然后把flag{th1s_!s_a_d4m0_4la9}直接拿到<br>有点抽象</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Misc</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Banmabanma</title>
+    <link href="/2025/03/02/Banmabanma/"/>
+    <url>/2025/03/02/Banmabanma/</url>
+    
+    <content type="html"><![CDATA[<p>题目给了一张图片<br><img src="/images/Banmabanma.png" alt="1"><br>然后通过在线扫码工具一扫得到flag</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Misc</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>简单的base编码</title>
     <link href="/2025/03/01/%E7%AE%80%E5%8D%95%E7%9A%84base%E7%BC%96%E7%A0%81/"/>
     <url>/2025/03/01/%E7%AE%80%E5%8D%95%E7%9A%84base%E7%BC%96%E7%A0%81/</url>
