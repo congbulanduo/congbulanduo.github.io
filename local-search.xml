@@ -4,6 +4,63 @@
   
   
   <entry>
+    <title>disabled_button</title>
+    <link href="/2025/03/04/disabled-button/"/>
+    <url>/2025/03/04/disabled-button/</url>
+    
+    <content type="html"><![CDATA[<p>打开题目看到一个黑色的按钮按不下去<br>查看源码发现有一个disabled<br>打开元素把它删掉即可<br>或者用post方式传入auth&#x3D;flag<br>然后按下按钮发现flag</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Web</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>get_post</title>
+    <link href="/2025/03/02/get-post/"/>
+    <url>/2025/03/02/get-post/</url>
+    
+    <content type="html"><![CDATA[<p>题目说的很明白，要求用get方式和post方式分别传输2个变量<br>用get给后端传参的方式是：在？后面跟变量名字，不同的变量之间用&amp;隔开，在url后添加&#x2F;？a&#x3D;1即可发送get请求<br>利用hackbar进行post传参</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Web</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>robots</title>
+    <link href="/2025/03/02/robots/"/>
+    <url>/2025/03/02/robots/</url>
+    
+    <content type="html"><![CDATA[<p>原理：robots.txt是搜索引擎中访问网站的时候要查看的第一个文件。当一个搜索蜘蛛访问一个站点时，它会首先检查该站点根目录下是否存在robots.txt，如果存在，搜索机器人就会按照该文件中的内容来确定访问的范围；如果该文件不存在，所有的搜索蜘蛛将能够访问网站上所有没有被口令保护的页面。<br>思路：flag可能在robots协议中</p><p><img src="/images/robots.png" alt="1"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Web</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Aesop_secret</title>
     <link href="/2025/03/02/Aesop-secret-1/"/>
     <url>/2025/03/02/Aesop-secret-1/</url>
